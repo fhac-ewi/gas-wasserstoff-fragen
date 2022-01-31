@@ -366,6 +366,84 @@ TODO
 </td></tr></table>
 </details>
 
+## Grundlagen des Gastransports
+Fragen aus der Datei [04 Vorlesung](./Fragenkatalog/04%20Grundlagen%20des%20Gastransports/04%20Vorlesung.md).
+## Sektorkopplung und PtX
+Fragen aus der Datei [05 Vorlesung](./Fragenkatalog/05%20Sektorkopplung%20und%20PtX/05%20Vorlesung.md).
+<details><summary><b>Sektorenkopplung</b></summary>
+<table><tr><td>
+
+Unter Sektorenkopplung versteht man alle Maßnahmen, die zu einem Zusammenwachsen der Sektoren Stromerzeugung, Mobilität, Wärme und Produktion und ihren jeweiligen Infrastrukturen führen.
+
+- Direkte Nutzung von Strom
+- Indirekte Nutzung von Strom (PtX)
+
+</td></tr></table>
+</details>
+<details><summary><b>PtX</b></summary>
+<table><tr><td>
+
+Oberbegriff für diverse Power-to-Verfahren.
+
+- Power-to-Hydrogen (PtH2)
+- Power-to-Gas (PtG)
+- Power-to-Heat (PtH)
+- ...
+
+</td></tr></table>
+</details>
+<details><summary><b>Power-to-Gas (PtG)</b></summary>
+<table><tr><td>
+
+Umwandlung von Strom zu Methan (Hauptbestandteil von Erdgas). Wirkungsgrad PtP TODO.
+
+- chemische Methanisierung
+- biologische Methanisierung
+
+Vorteile von SNG (synthetic natural gas):
+- Gaseigenschaft sehr ähnlich zu Erdgas
+- Verwendung der vorhandenen Infrastrukturen
+  - Speicher
+  - Transport
+  - Verstromung
+
+Herausforderungen von SNG:
+- Skalierung der Elektrolysetechnik
+- Kostenseitige Konkurrenzfähigkeit zu fossilem Erdgas
+- Braucht CO2
+  - CO2 aus der Luft
+  - Biogase
+  - Fossile CO2-Quellen
+
+</td></tr></table>
+</details>
+<details><summary><b>Power-to-Hydrogen (PtH2)</b></summary>
+<table><tr><td>
+
+Umwandlung von Strom zu Wasserstoff. Wirkungsgrad PtP 34 - 50 %.
+
+Vorteile
+- Umrüstung der bestehenden Infrastruktur möglich
+- Erschließung neuer Sektoren: Verkehr und Industrie
+- Höhere Gesamtwirkungsgrade [als Methanisierung].
+- Kein CO2 beim Endverbraucher
+
+Herausforderungen:
+- Skalierung der Elektrolysetechnik
+- Neue Verteilungsinfrastruktur
+- Kostenseitige Konkurrenzfähigkeit zu erneuerbaren Strom
+</td></tr></table>
+</details>
+
+## Übungen
+Fragen aus der Datei [Übung 02](./Fragenkatalog/99%20Übungen/Übung%2002.md).
+<details><summary><b># Hello!</b></summary>
+<table><tr><td>
+
+Funny, isn't it?
+</td></tr></table>
+</details>
 
 
-Generiert am Mon Jan 31 10:31:21 UTC 2022
+
+Generiert am Mon Jan 31 12:30:31 UTC 2022
