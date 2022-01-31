@@ -12,12 +12,25 @@
   - N2
   - O2
   
-# Teilsysteme der Gasversorung
+# Teilsysteme der Gasversorung (*)
 - Gasförderunng
 - Internationaler Gastransport
+  - LNG 
+  - Interkontinentale Pipelines
 - Nationale Gastransportinfrastruktur
+  - Pipelines
+  - Verdichtungsstation
+  - Gasdruckregel und Messtationen
+  - Gasspeicher
 - Gasverteilnetze
+  - Übergabestationen
+  - Verteilnetze
 - Gasverwendung
+  - Wärmemarkt
+  - Stromerzeugugn
+  - Industrie
+  - Rohstoff
+  - Verkehr
 
 # Produktionsanlange
 - Konventionelle Förderung
@@ -42,7 +55,7 @@
 - meistens mit 65 bis 80 bar (Einzelfälle bis 100 bar)
 - Meistens in einer Tiefe von 0.8 - 1 Meter
 
-# Gasmarkt Deutschland
+# Gasmarkt Deutschland 
 - NCG und Gaspool (wurden in Oktober 2021 zusammen gelegt)
 - Akteure
   - 16 Gasfernleitungsunternehmen
@@ -52,7 +65,7 @@
   - Vertrieb
   - 14 Mio. Letztverbraucher
 
-# Gasnetz Deutschland
+# Gasnetz Deutschland (*)
 - Transportnetz
   - über 80 bar
   - 122500 km Netze
@@ -68,7 +81,23 @@ Eigenschaften
 - Nord-Süd-Kapazität für Gas 4x so hoch wie für Strom (75 GW)
 - Ausreichend Speicherkapazität für 3 Monate. (280 TWh Speicher, Jahresbedarf 1000 TWh)
 
-# Arten von Verdichtern
-TODO F32
+# Gasverdichter (*)
+- Strömunngsverdichter
+  - Axialkoblenkompressoren
+  - Radialkolbenkompressoren
+- Verdränger-Prinzip
+  - Kolbenverdichter
+  - Membranverdichter
+  - Schraubenverdichter
 
+TODO Funktionsweise  
+  
 # Gasspeicher
+- Dienen zum Ausgleich saisonaler und tageszeitlicher Verbrauchsspitzen
+- Untergrundspeicher
+  - Porenspeicher
+  - Karvernenspeicher
+  - Gasverteilnetz
+- Oberirdische Speicher 
+  - Gasverteilnetz 
+  - Grüne Kugeln  
