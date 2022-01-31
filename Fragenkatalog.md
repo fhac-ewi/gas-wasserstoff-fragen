@@ -325,17 +325,16 @@ Fragen aus der Datei [03 Vorlesung](./Fragenkatalog/03%20Komponenten%20Wassersto
 Bei allen Elektrolyse-Verfahren gibt es eine Anode und Kathode, die elektrisch geladen sind. Aufgrund der speziellen Beschaffenheit und eine besonderen Zwischenschicht (zwischen Anode/Kathode) wird H2O gespalten.
 
 - Alkalische Elektrolyse (AEL)
-  - Membran:
-  - Was wird transportiert? 
-  - Betriebstemperatur:
+  - Membran: Diaphragm
+  - Was wird transportiert? OH-
 - Membran-Elektrolyse (PEMEL)
-  - Membran:
-  - Was wird transportiert? 
-  - Betriebstemperatur:
+  - Membran: Polymeric Membrane
+  - Was wird transportiert? H+
 - Hochtemperaturelektrolyse (HTES)
-  - Membran:
-  - Was wird transportiert? 
-  - Betriebstemperatur:
+  - Membran: Ceramic Membrane
+  - Was wird transportiert? O2-
+
+![img.png](./Fragenkatalog/03%20Komponenten%20Wasserstoffsystem/img.png)
 
 </td></tr></table>
 </details>
@@ -360,7 +359,13 @@ Bei allen Elektrolyse-Verfahren gibt es eine Anode und Kathode, die elektrisch g
 
 </td></tr></table>
 </details>
+<details><summary><b>Brennstoffzellen</b></summary>
+<table><tr><td>
+
+TODO
+</td></tr></table>
+</details>
 
 
 
-Generiert am Mon Jan 31 10:08:20 UTC 2022
+Generiert am Mon Jan 31 10:31:21 UTC 2022
