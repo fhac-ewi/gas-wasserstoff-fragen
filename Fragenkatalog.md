@@ -157,14 +157,27 @@ Fragen aus der Datei [02 Vorlesung](./Fragenkatalog/02%20Komponenten%20Gasversor
   
 </td></tr></table>
 </details>
-<details><summary><b>Teilsysteme der Gasversorung</b></summary>
+<details><summary><b>Teilsysteme der Gasversorung (*)</b></summary>
 <table><tr><td>
 
 - Gasförderunng
 - Internationaler Gastransport
+  - LNG 
+  - Interkontinentale Pipelines
 - Nationale Gastransportinfrastruktur
+  - Pipelines
+  - Verdichtungsstation
+  - Gasdruckregel und Messtationen
+  - Gasspeicher
 - Gasverteilnetze
+  - Übergabestationen
+  - Verteilnetze
 - Gasverwendung
+  - Wärmemarkt
+  - Stromerzeugugn
+  - Industrie
+  - Rohstoff
+  - Verkehr
 
 </td></tr></table>
 </details>
@@ -203,7 +216,7 @@ Fragen aus der Datei [02 Vorlesung](./Fragenkatalog/02%20Komponenten%20Gasversor
 
 </td></tr></table>
 </details>
-<details><summary><b>Gasmarkt Deutschland</b></summary>
+<details><summary><b>Gasmarkt Deutschland </b></summary>
 <table><tr><td>
 
 - NCG und Gaspool (wurden in Oktober 2021 zusammen gelegt)
@@ -217,7 +230,7 @@ Fragen aus der Datei [02 Vorlesung](./Fragenkatalog/02%20Komponenten%20Gasversor
 
 </td></tr></table>
 </details>
-<details><summary><b>Gasnetz Deutschland</b></summary>
+<details><summary><b>Gasnetz Deutschland (*)</b></summary>
 <table><tr><td>
 
 - Transportnetz
@@ -237,19 +250,117 @@ Eigenschaften
 
 </td></tr></table>
 </details>
-<details><summary><b>Arten von Verdichtern</b></summary>
+<details><summary><b>Gasverdichter (*)</b></summary>
 <table><tr><td>
 
-TODO F32
+- Strömunngsverdichter
+  - Axialkoblenkompressoren
+  - Radialkolbenkompressoren
+- Verdränger-Prinzip
+  - Kolbenverdichter
+  - Membranverdichter
+  - Schraubenverdichter
 
+TODO Funktionsweise  
+  
 </td></tr></table>
 </details>
 <details><summary><b>Gasspeicher</b></summary>
 <table><tr><td>
 
+- Dienen zum Ausgleich saisonaler und tageszeitlicher Verbrauchsspitzen
+- Untergrundspeicher
+  - Porenspeicher
+  - Karvernenspeicher
+  - Gasverteilnetz
+- Oberirdische Speicher 
+  - Gasverteilnetz 
+  - Grüne Kugeln  
+</td></tr></table>
+</details>
+
+## Komponenten Wasserstoffsystem
+Fragen aus der Datei [03 Vorlesung](./Fragenkatalog/03%20Komponenten%20Wasserstoffsystem/03%20Vorlesung.md).
+<details><summary><b>Teilsysteme der Wasserstoffversorgung</b></summary>
+<table><tr><td>
+
+- Erzeugung
+  - Fossile
+  - Biongene
+  - Strombasierte
+- Internationaler Transport
+  - LH2 (liquefied hydrogen)
+  - LOHC, Ammoniak, PtL
+  - Ferntransport Pipelines
+- Nationale Transportinfrastruktur
+  - Pipeline 
+  - Transport per LKW, Bahn, Schiff
+  - Wasserstoffspeicher
+- Verteilung
+  - Pipeline 
+  - LKW 
+- Verwendung
+  - Stromerzeugung
+  - Industrie
+  - Rohstoff
+  - Verkehr
+  - Wärme  
+  
+</td></tr></table>
+</details>
+<details><summary><b>Farblehre von Wasserstoff</b></summary>
+<table><tr><td>
+
+- Grüner Wasserstoff: Herstellung aus Elektrolyse aus erneuerbaren Energiequellen
+- Grauer Wasserstoff: Herstellung aus fossilen Brennstoffen. (z.B. Dampfreformierung)
+- Blauer Wasserstoff: Grauer Wasserstoff, jedoch wird das freigesetzte CO2 eingefangen = Bilanziell CO2 neutral
+- Türkiser Wasserstoff: Herstellung durch Spaltung von Methan (Methanpryolyse)
+
+
+</td></tr></table>
+</details>
+<details><summary><b>Wasser-Elektrolyse Verfahren</b></summary>
+<table><tr><td>
+
+Bei allen Elektrolyse-Verfahren gibt es eine Anode und Kathode, die elektrisch geladen sind. Aufgrund der speziellen Beschaffenheit und eine besonderen Zwischenschicht (zwischen Anode/Kathode) wird H2O gespalten.
+
+- Alkalische Elektrolyse (AEL)
+  - Membran:
+  - Was wird transportiert? 
+  - Betriebstemperatur:
+- Membran-Elektrolyse (PEMEL)
+  - Membran:
+  - Was wird transportiert? 
+  - Betriebstemperatur:
+- Hochtemperaturelektrolyse (HTES)
+  - Membran:
+  - Was wird transportiert? 
+  - Betriebstemperatur:
+
+</td></tr></table>
+</details>
+<details><summary><b>Speicherung von Wasserstoff</b></summary>
+<table><tr><td>
+
+- Geologische Wasserstoffspeicherung
+  - TODO
+- Kissengas: Grundmenge an Gas im Speicher, kann nicht entnommen werden.
+- Arbeitsgas: Nutzbares Gas im Speicher 
+- Druck im Speicher darf nicht zu hoch sein, da Wasserstoff flüchtig ist. 
+  
+</td></tr></table>
+</details>
+<details><summary><b>Wasserstoffversprödung</b></summary>
+<table><tr><td>
+
+- H2 ist das kleinste Element im Periodensystem
+- Deshalb: Kann in Materialien eindringen
+- Beschädigt Leitungen, bis diese reißen
+- Lösung: Nicht H2 pur in Gasform transportieren 
+
 </td></tr></table>
 </details>
 
 
 
-Generiert am Sun Jan 30 10:36:17 UTC 2022
+Generiert am Mon Jan 31 10:08:20 UTC 2022
