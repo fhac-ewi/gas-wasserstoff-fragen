@@ -437,13 +437,10 @@ Herausforderungen:
 
 ## Übungen
 Fragen aus der Datei [Übung 02](./Fragenkatalog/99%20Übungen/Übung%2002.md).
-<details><summary><b># Hello!</b></summary>
-<table><tr><td>
-
 Funny, isn't it?
 </td></tr></table>
 </details>
 
 
 
-Generiert am Mon Jan 31 12:30:31 UTC 2022
+Generiert am Mon Jan 31 12:31:24 UTC 2022
