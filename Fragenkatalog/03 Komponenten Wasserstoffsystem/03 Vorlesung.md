@@ -32,17 +32,16 @@
 Bei allen Elektrolyse-Verfahren gibt es eine Anode und Kathode, die elektrisch geladen sind. Aufgrund der speziellen Beschaffenheit und eine besonderen Zwischenschicht (zwischen Anode/Kathode) wird H2O gespalten.
 
 - Alkalische Elektrolyse (AEL)
-  - Membran:
-  - Was wird transportiert? 
-  - Betriebstemperatur:
+  - Membran: Diaphragm
+  - Was wird transportiert? OH-
 - Membran-Elektrolyse (PEMEL)
-  - Membran:
-  - Was wird transportiert? 
-  - Betriebstemperatur:
+  - Membran: Polymeric Membrane
+  - Was wird transportiert? H+
 - Hochtemperaturelektrolyse (HTES)
-  - Membran:
-  - Was wird transportiert? 
-  - Betriebstemperatur:
+  - Membran: Ceramic Membrane
+  - Was wird transportiert? O2-
+
+![img.png](./img.png)
 
 # Speicherung von Wasserstoff
 - Geologische Wasserstoffspeicherung
@@ -57,3 +56,5 @@ Bei allen Elektrolyse-Verfahren gibt es eine Anode und Kathode, die elektrisch g
 - Beschädigt Leitungen, bis diese reißen
 - Lösung: Nicht H2 pur in Gasform transportieren 
 
+# Brennstoffzellen
+TODO
