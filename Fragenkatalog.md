@@ -435,12 +435,231 @@ Herausforderungen:
 </td></tr></table>
 </details>
 
+## Endverbrauchstechniken
+Fragen aus der Datei [06 Vorlesung](./Fragenkatalog/06%20Endverbrauchstechniken/06%20Vorlesung.md).
+<details><summary><b>Schwerpunkte derzeitiger Erdgasverwendung</b></summary>
+<table><tr><td>
+
+- **Raumwärme** und Warmwasserbereitstellung
+- Bereitstellung **Prozesswärme**, insbesondere Mitteltemperatur und Hochtemperatur
+- **Kraftwerksprozesse** insbesondere Gasturbinen
+
+</td></tr></table>
+</details>
+<details><summary><b>Marktentwicklung Wärmeerzeugung</b></summary>
+<table><tr><td>
+
+Heizkessel >> Wärmepumpe
+
+Wechsel des Energieträgers von Erdgas >> Strom.
+
+</td></tr></table>
+</details>
+<details><summary><b>Kraftwärmekopplung</b></summary>
+<table><tr><td>
+
+Bereitstellung von Strom und Wärme.
+
+| Größenordnung | Technologie                                 |
+|---------------|---------------------------------------------|
+| 1 kW          | Stirlingmotor <br>                          |
+| 10 kW         | NT-Brennstoffzelle <br>  HT-Brennstoffzelle |
+| 100 kW        | Gasmotor                                    |
+| 1 MW          | Gasturbine                                  |  
+| 10 MW         | GuD-Kraftwerke (reine Stromerzeugung)       |
+
+</td></tr></table>
+</details>
+<details><summary><b>Bockheizkraftwerk</b></summary>
+<table><tr><td>
+
+Gasmotor >> Generator >> Strom
+
+Erdgas verbrennt und treibt den Motor an. Die Abgase werden zusätzlich zur Wärmeerzeugung genutzt.
+
+Vorteile
+- Kopplung von Strom- und Wärmeerzeugung >> Hoher Wirkungsgrad
+- Nutzung verschiedener Gase möglich
+- Dezentrale Lösung für z.B. Nahwärmenetze
+
+</td></tr></table>
+</details>
+<details><summary><b>Mikro-KWK</b></summary>
+<table><tr><td>
+
+Diverse Technologien ermöglichen die Kopplung von Strom und Wärme.
+
+Vorteile
+- Hohe elektrische Effizienz
+- Hohe Brennstoffnutzung
+- Stromgeführter Betrieb möglich
+
+</td></tr></table>
+</details>
+<details><summary><b>Erdgas-Kraftwerke</b></summary>
+<table><tr><td>
+
+Bauarten
+- Gasturbinen
+- Gasgefeuerte Dampfkraftwerke
+- Gas- und Dampfkraftwerke (GuD)
+
+Vorteile
+- Kopplung von Strom- und Wärmeerzeugung >> Hoher Wirkungsgrad
+- Geringe Investitionskosten
+- Umstellung auf Wasserstoff möglich
+</td></tr></table>
+</details>
+
+## Gasspeicherung
+Fragen aus der Datei [07 Vorlesung](./Fragenkatalog/07%20Gasspeicherung/07%20Vorlesung.md).
+<details><summary><b>Aspekte Gasspeicherung</b></summary>
+<table><tr><td>
+
+Es geht immer um **Versorungsoptimierung** und das gute Management von **Spitzenlasten**.
+
+- Ausgleich zwischen Ein- und Ausspeisung bei langen Leitungen (Zeitskala: Tage)
+- Ausgleich saisonaler Abnahmeschwankungen (Zeitskala: Monate)
+- Optimierung des Beschaffungsertragsportfolios (Zeitskala: Monate)
+- Nivellierung von Produktion und Abnahme durch Kunden
+- Abdeckung von Spitzenlasten (peak-shaving)
+- Aufrechterhaltung der Versorgung bei Störungen auf der Produzentenseite oder im Leitungssystem
+- Geostrategische Versorgungssicherheit
+
+</td></tr></table>
+</details>
+<details><summary><b>Aussichten Langzeitspeicherung</b></summary>
+<table><tr><td>
+
+Im Jahr 2045 werden zur Überbrückung von Dunkelflauten Wasserstoffspeicher gebraucht.
+
+</td></tr></table>
+</details>
+<details><summary><b>Wo sind Speicher lokalisiert?</b></summary>
+<table><tr><td>
+
+Überwiegend im Norden. 
+
+</td></tr></table>
+</details>
+<details><summary><b>Größenordnung Salzkavernenspeicher</b></summary>
+<table><tr><td>
+
+Größen zwischen 350.000 und 750.000 Kubikmeter.
+
+In einer Tiefe von 400 bis 2000 m.
+
+</td></tr></table>
+</details>
+
+## Regulatorik
+Fragen aus der Datei [08 Vorlesung](./Fragenkatalog/08%20Regulatorik/08%20Vorlesung.md).
+<details><summary><b>Wieso Liberalisierung?</b></summary>
+<table><tr><td>
+
+- Freier Netzzugang
+- Regulierung der Entgelte und Bedingungen
+- Entflechtung der EVU (Erzeugung, Handel, Transport, Verteilung, Speicherung)
+
+Ziel: Diskriminierungsfreier Wettbewerb
+
+</td></tr></table>
+</details>
+<details><summary><b>Netzenntwicklungsplan (NEP)</b></summary>
+<table><tr><td>
+
+- Wird alle 2 Jahre überarbeitet
+- Grundlage: Prognosen für Gas-Aufkommen und -Nachfrage
+- Ziel: Vorlage eines Plans zum Netzausbau inkl. Festlegung konkreter Projekte
+
+</td></tr></table>
+</details>
+<details><summary><b>Marktdesign für Wasserstoff</b></summary>
+<table><tr><td>
+
+Aktuell: Insellösung. Kein Markt vorhanden.
+
+Geplant:
+Analog zu Strom- und Gasmarkt: Liberalisiert
+(Freier Netzzugang, Regulierung und Entflechtung)
+
+Konsequenzen:
+- Entflechtung bestehender Unternehmen
+- Regulation der H2 Infrastrukturen
+</td></tr></table>
+</details>
+
+## Märkte
+Fragen aus der Datei [09 Vorlesung](./Fragenkatalog/09%20Märkte/09%20Vorlesung.md).
+<details><summary><b>Akteure</b></summary>
+<table><tr><td>
+
+- Produzenten
+- Händler
+- Netzwerkbetreiber
+- Speicherbetreiber
+- Endverbraucher
+- Lieferanten
+
+</td></tr></table>
+</details>
+<details><summary><b>Gasbeschaffung</b></summary>
+<table><tr><td>
+
+- Nationale Förderung (Rückläufig)
+- Handel an der Börse
+  - Terminmarkt: Langfristige Lieferverträge
+  - Spotmarkt: Kurzfristige Lieferung
+  
+</td></tr></table>
+</details>
+
 ## Übungen
 Fragen aus der Datei [Übung 02](./Fragenkatalog/99%20Übungen/Übung%2002.md).
-Funny, isn't it?
+
+Übung 2
+-----
+
+1. Berechnung der benötigten Energie in Erdgas. (``Energie elektrisch / Wirkungsgrad``)
+2. Berechnung der Menge pro Sekunde. (``Energie Erdgas/Heizwert``)
+3. Mithilfe der Idealen Gasgleichung berechnung der Menge Mol pro Sekunde. 
+4. Berechnung des Volumenstroms in der Rohrleitung anhand Mol/s, Temperatur, maximaler Druck und Gaskonstante.
+5. Lösung der Ungleichung, dass Volumenstrom < 15 m/s sein soll. Ergebnis: Durchmesser Rohrleitung.
+</td></tr></table>
+</details>
+
+Fragen aus der Datei [Übung 03](./Fragenkatalog/99%20Übungen/Übung%2003.md).
+
+Übung 3
+-------
+1. Investitionskosten und Betriebskosten für Windpark ermitteln.
+2. Zusätzlich Annuitätenfaktor für Windpark ermitteln.
+3. Daraus jährliche Kosten für Windpark ermitteln.
+4. Zusätzlich die jährliche Strommenge.
+5. Analog Investitionskosten und Betriebskosten für Elektrolyse + Kompressor ermitteln.
+6. Zusätzlich Annuitätenfaktor für Elektrolyse + Kompressor ermitteln.
+7. Daraus jährliche Kosten für Elektrolyse + Kompressor ermitteln.
+8. Ermitteln wie viel H2 hergestellt werden kann.
+9. Daraus Kaufpreis für H2 ermitteln. (```Menge / Kosten(Windpark + Elektrolyse + Kompressor)```)
+</td></tr></table>
+</details>
+
+Fragen aus der Datei [Übung 04](./Fragenkatalog/99%20Übungen/Übung%2004.md).
+
+Übung 4
+-------
+Maximal entnehmbare elektrische Energie des Speichers.
+1. Anhand der Diagramme zuerst die Betriebsdrücke für die Tiefe ablesen. (Mindestdruck und maximalerDruck)
+2. Anhand der Diagramme Realgasfaktor für Wasserstoff für beide Drücke ablesen.
+3. Mit der realen Gasgleichung die nutzbare Menge Wasserstoff bestimmen. (Obere Schranke - untere Druckschranke)
+4. Mit Heizwert die elektrische Energie bestimmen.
+
+Gesamtwirkungsgrad berechnen
+1. Bestimmung der benötigten elektrischen Energie zur Befüllung des Speichers.
+2. Wirkungsgrad bestimmen indem ``Ausspeicherung/Einspeicherung`` berechnet wird.
 </td></tr></table>
 </details>
 
 
 
-Generiert am Mon Jan 31 12:31:24 UTC 2022
+Generiert am Tue Feb  1 11:01:42 UTC 2022
