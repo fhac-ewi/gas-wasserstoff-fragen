@@ -46,7 +46,7 @@ Fragen aus der Datei [Grundlagen](./Fragenkatalog/00%20Grundlagen/Grundlagen.md)
 <table><tr><td>
 
 - Wärmebelastung eines Gasbrenners, Brenngase mit gleichem Wobbe-Index ergeben bei gleichem Druck am Brenner annähernd die gleiche Wärmebelastung
-- Ws =  Brennwert / sqrt(d)
+- ``Ws =  Brennwert / sqrt(relative Dichte)``
 </td></tr></table>
 </details>
 
@@ -67,7 +67,7 @@ ca. 25 %
 - L-Gas (Low calorific gas)
   - geringer Methangehalt
   - geringer Brennwert
-  - erhalten 25% der Gas-Kunden 
+  - erhalten 25% der Gas-Kunden im Nord-Westen Deutschlands
   - 80 - 87 % Methan
 - H-Gas (High calorific gas)
   - höherer Methangehalt
@@ -240,7 +240,7 @@ Fragen aus der Datei [02 Vorlesung](./Fragenkatalog/02%20Komponenten%20Gasversor
   - ca. 16 bar
   - 209000 km
 - Lokales Verteilnetz   
-  - > 10mbar
+  - \> 10mbar
   - 161000 km
 
 Eigenschaften
@@ -334,7 +334,7 @@ Bei allen Elektrolyse-Verfahren gibt es eine Anode und Kathode, die elektrisch g
   - Membran: Ceramic Membrane
   - Was wird transportiert? O2-
 
-![img.png](./Fragenkatalog/03%20Komponenten%20Wasserstoffsystem/img.png)
+![img.png](./Fragenkatalog/03%20Komponenten%20Wasserstoffsystem/elektrolyse.png)
 
 </td></tr></table>
 </details>
@@ -368,6 +368,40 @@ TODO
 
 ## Grundlagen des Gastransports
 Fragen aus der Datei [04 Vorlesung](./Fragenkatalog/04%20Grundlagen%20des%20Gastransports/04%20Vorlesung.md).
+<details><summary><b>Zustandsgleichung idealer und realer Gase</b></summary>
+<table><tr><td>
+
+Gleichung beschreibt den Zusammenhang zwischen thermischen Zustandsgrößen eines idealen Gases.
+
+``p * V = n * R * T``
+
+mit
+``p`` der Druck, 
+``V`` das Volumen, 
+``n`` die Stoffmenge (es gilt `n = m / M` mit `M` als Molare Masse), 
+``R`` die Gaswiderstandszahl, 
+``T`` die Temperatur.
+
+</td></tr></table>
+</details>
+<details><summary><b>Umrechnung Normzustand für Gase</b></summary>
+<table><tr><td>
+
+Während bei festen und flüssigen Brennstoffen auf massespezifische Kennzahlen zurückgegriffen wird, werden bei gasförmigen Brennstoffen volumenbezogene Kennzahlen genutzt.
+
+Die Umrechnung erfolgt bei einer Temperatur von 0 °C und einem Druck von 1,01 bar
+
+</td></tr></table>
+</details>
+<details><summary><b>Kesselformel</b></summary>
+<table><tr><td>
+
+Bestimmt erforderliche Wanddicke in Abhängigkeit des Drucks.
+
+Wichtig: Dicke ist proportional zu ``Druck/2``.
+</td></tr></table>
+</details>
+
 ## Sektorkopplung und PtX
 Fragen aus der Datei [05 Vorlesung](./Fragenkatalog/05%20Sektorkopplung%20und%20PtX/05%20Vorlesung.md).
 <details><summary><b>Sektorenkopplung</b></summary>
@@ -620,11 +654,68 @@ Fragen aus der Datei [Übung 02](./Fragenkatalog/99%20Übungen/Übung%2002.md).
 Übung 2
 -----
 
-1. Berechnung der benötigten Energie in Erdgas. (``Energie elektrisch / Wirkungsgrad``)
-2. Berechnung der Menge pro Sekunde. (``Energie Erdgas/Heizwert``)
-3. Mithilfe der Idealen Gasgleichung berechnung der Menge Mol pro Sekunde. 
-4. Berechnung des Volumenstroms in der Rohrleitung anhand Mol/s, Temperatur, maximaler Druck und Gaskonstante.
-5. Lösung der Ungleichung, dass Volumenstrom < 15 m/s sein soll. Ergebnis: Durchmesser Rohrleitung.
+1. Berechnung der benötigten Leistung in Erdgas. <br>
+``Leistung elektrisch / Wirkungsgrad = Leistung [MW_gas]``
+2. Berechnung des Massenstroms und Umrechnung in ``kg/s``. <br>
+``Energie Erdgas / Heizwert = Massenstrom [kg/h]``
+3. Berechnung der Menge Mol pro Sekunde. <br>
+``Massenstrom [kg/s]/ Molmasse = Menge [mol/s}``
+4. Berechnung des Volumenstroms mit der idealen Gasgleichung. <br>
+``Stoffmenge mol/s * Gaskonstante * Temperatur / Druck = Volumenstrom [m³/s]``
+5. Lösung der Ungleichung, dass Strömungsgeschwindigkeit < 15 m/s sein soll.
+``Querschnitt Rohr = pi / 4 * Durchmesser Rohr * Durchmesser Rohr``
+6. Umstellen nach Durchmesser Rohrleitung.
+
+<details><summary><b>Umrechnung Heizwert MJ/kg >> kWh/kg</b></summary>
+<table><tr><td>
+
+Umrechnungsfaktor: ``x MJ/kg * 0.2778 = kWh/kg``
+
+</td></tr></table>
+</details>
+<details><summary><b>Gaskonstante & Ideale Gasgleichung</b></summary>
+<table><tr><td>
+
+Konstante stellt Zusammenhang zwischen
+- Druck ``p``
+- Temperatur ``T``
+- Volumen ``V``
+- Stoffmenge ``n``
+
+her.
+
+Dazu wird die idealen Gasgleichung verwendet.
+```p*V=n*R*T```
+
+Hinweis: Wenn Stoffmenge in ```Mol/s``` ist, dann ist das Ergebnis der Volumenstrom in ```m³/s```.
+
+</td></tr></table>
+</details>
+<details><summary><b>Umrechnung Grad & Kelvin</b></summary>
+<table><tr><td>
+
+Formel: ```°C + 273.15 = K```
+
+</td></tr></table>
+</details>
+<details><summary><b>Umrechnung Bar in Newton</b></summary>
+<table><tr><td>
+
+Formel: ```Bar * 10^5 = N/m^2``` 
+
+</td></tr></table>
+</details>
+<details><summary><b>Volumenstrom & Strömungsgeschwindigkeit</b></summary>
+<table><tr><td>
+
+Volumenstrom: 
+- ```m³/s```
+- Volumen, dass in einer Zeitspanne durch die Leitung fließen muss.
+
+Strömungsgeschwindigkeit: 
+- ```m/s```
+- Geschwindigkeit gibt die Geschwindigkeit einer Strömung an.
+
 </td></tr></table>
 </details>
 
@@ -634,13 +725,22 @@ Fragen aus der Datei [Übung 03](./Fragenkatalog/99%20Übungen/Übung%2003.md).
 -------
 1. Investitionskosten und Betriebskosten für Windpark ermitteln.
 2. Zusätzlich Annuitätenfaktor für Windpark ermitteln.
-3. Daraus jährliche Kosten für Windpark ermitteln.
-4. Zusätzlich die jährliche Strommenge.
+3. Daraus jährliche Kosten für Windpark ermitteln. <br>
+``Gesamtkosten = Investitionskosten * Annuitätenfaktor+ Betriebskosten``
+4. Zusätzlich die jährliche Strommenge des Windparks.
 5. Analog Investitionskosten und Betriebskosten für Elektrolyse + Kompressor ermitteln.
 6. Zusätzlich Annuitätenfaktor für Elektrolyse + Kompressor ermitteln.
 7. Daraus jährliche Kosten für Elektrolyse + Kompressor ermitteln.
-8. Ermitteln wie viel H2 hergestellt werden kann.
-9. Daraus Kaufpreis für H2 ermitteln. (```Menge / Kosten(Windpark + Elektrolyse + Kompressor)```)
+8. Ermitteln wie viel H2 hergestellt werden kann. <br>
+``H2 = Strommenge * Wirkungsgrad * (1-Verluste Kompression)``
+9. Daraus Kaufpreis für H2 ermitteln. <br>
+``Kosten(Windpark + Elektrolyse + Kompressor) / Menge H2 = Kaufpreis H2``
+
+<details><summary><b>Annuitätenfaktor</b></summary>
+<table><tr><td>
+
+Abschreibung der Investitionskosten pro Jahr inklusive dem dazugehörigen Zinssatz.
+
 </td></tr></table>
 </details>
 
@@ -649,17 +749,141 @@ Fragen aus der Datei [Übung 04](./Fragenkatalog/99%20Übungen/Übung%2004.md).
 Übung 4
 -------
 Maximal entnehmbare elektrische Energie des Speichers.
-1. Anhand der Diagramme zuerst die Betriebsdrücke für die Tiefe ablesen. (Mindestdruck und maximalerDruck)
+1. Anhand der Diagramme zuerst die Betriebsdrücke für die Tiefe ablesen. (Mindestdruck und maximaler Druck)
 2. Anhand der Diagramme Realgasfaktor für Wasserstoff für beide Drücke ablesen.
-3. Mit der realen Gasgleichung die nutzbare Menge Wasserstoff bestimmen. (Obere Schranke - untere Druckschranke)
-4. Mit Heizwert die elektrische Energie bestimmen.
+3. Mit der realen Gasgleichung die nutzbare Menge Wasserstoff in Kilogramm bestimmen. (Obere Schranke - untere Druckschranke)
+4. Mit Heizwert die Energie des Wasserstoffs bestimmen.
+5. Mit Wirkungsgrad der Brennstoffzelle die maximal entnehmbare elektrische Energiemenge bestimmen.
 
 Gesamtwirkungsgrad berechnen
 1. Bestimmung der benötigten elektrischen Energie zur Befüllung des Speichers.
+   1. ``Energiebedarf Wasserstoff / Wirkungsgrad elektrolyse``
+   2. ``+ 10 % Verluste wegen Kompression``
 2. Wirkungsgrad bestimmen indem ``Ausspeicherung/Einspeicherung`` berechnet wird.
+
+<details><summary><b>Molare Masse M</b></summary>
+<table><tr><td>
+
+Die molare Masse für Wasserstoff 2,02 g/mol.
+</td></tr></table>
+</details>
+
+Fragen aus der Datei [Übung 05](./Fragenkatalog/99%20Übungen/Übung%2005.md).
+
+Übung 5
+-------
+Reicht Pipeline Durchmesser für Erdgas aus?
+1. Errechnung der benötigten Erdgasleistung (``Elektrische Energie / Wirkungsgrad = MW_gas``)
+2. Bestimmung des Massenstroms (``Leistung_Gas / Heizwert``)
+3. Bestimmung Normvolumenstrom q_Erdgas <br>
+``q_Erdgas = Massenstrom / Normdichte`` <br>
+Nun muss geprüft werden, ob die Pipeline diesen Normalvolumenstrom aufnehmen kann.
+4. Bestimmung des Normvolumenstroms der Pipeline.
+   1. Bestimmung der Rohrreibungszahl lambda_m (Formel gegeben).
+   2. Bestimmung des mittleren Drucks der Pipeline p_m (Formel gegeben).
+   3. Bestimmung des Kappa K_m (Formel gegeben).
+   4. Verwendung der Darcy-Weisbach-Gleichung zur Bestimmung des q_Pipeline. (Muss umgestellt werden)
+5. Vergleich ob q_Pipeline > q_Erdgas ist.
+
+Reicht Pipeline Durchmesser für Wasserstoff aus?
+1. Analog wie Erdgas, mit anderen Parametern.
+
+<details><summary><b>Normdichte</b></summary>
+<table><tr><td>
+
+Dichte eines Stoffes bei einer Temperatur von 0 °C und einem Druck von 1,01 bar.
+
+</td></tr></table>
+</details>
+<details><summary><b>Darcy-Weisbach-Gleichung</b></summary>
+<table><tr><td>
+
+Berechnet die Energieverluste in einem Rohr aufgrund der Rohrreibung.
+
+https://de.wikipedia.org/wiki/Darcy-Weisbach-Gleichung
+
+</td></tr></table>
+</details>
+<details><summary><b>Wie kann eine Pipeline mehr transportieren?</b></summary>
+<table><tr><td>
+
+- Größeren Durchmesser
+- Erhöhung der Druckschranken (max. Druck anheben oder min. Druck senken)
+
+</td></tr></table>
+</details>
+<details><summary><b>Kann eine Erdgaspipeline die gleiche Leistung an Wasserstoff transportieren?</b></summary>
+<table><tr><td>
+
+Nein. Der Wechsel Erdgas >> Wasserstoff führt dazu, dass die Pipeline nur noch 70 % der Leistung transportieren kann.
+
+Die 
+</td></tr></table>
+</details>
+
+Fragen aus der Datei [Übung 06](./Fragenkatalog/99%20Übungen/Übung%2006.md).
+
+Übung 6
+-------
+Nach welcher Pipelinelänge muss eine Nachverdichtung erfolgen?
+1. Darcy-Weisbach-Gleichung zur Ermittlung der Länge umstellen
+
+Wie hoch ist der Energiebedarf für die Nachverdichtung auf 80 bar? 
+Geben Sie den Transportverlust bezogen auf die Durchflussmenge des Gases.
+1. Formel für Energiebedarf zur Nachverdichtung anwenden.
+
+<details><summary><b>Bezeichnungen</b></summary>
+<table><tr><td>
+
+TODO
+</td></tr></table>
+</details>
+
+Fragen aus der Datei [Übung 07](./Fragenkatalog/99%20Übungen/Übung%2007.md).
+
+Übung 7
+-------
+
+Durchmesser bestimmen
+1. Aus Menge und Normdichte den Normvolumenstrom bestimmen.
+2. Darcy-Weisbach-Gleichung nach Durchmesser D umstellen.
+3. Werte einsetzen.
+
+Kostenberechnung
+1. Kosten pro Meter für den Durchmesser aus Tabelle ablesen.
+2. Investitionskosten bestimmen. <br>
+``Kosten * Meter = Investitionskosten [€]``
+3. Betriebskosten bestimmen. <br>
+``Investitionskosten * 0.05 = Betriebskosten [€]``
+4. Annuitätenfaktor bestimmen. <br>
+``(((1+i)^n)*i)/(((1+i)^n)-1) = 0,064``
+5. Jährlichen Kosten bestimmen. <br>
+``Betriebskosten + Investitionskosten * Annuitätenfaktor = Jährliche Kosten [€]``
+6. Spezifische Transportkosten bestimmen. <br>
+``Jährliche Kosten / Transportmenge = Spezifische Transportkosten [€/kg]``
+
+<details><summary><b>Bezeichnungen</b></summary>
+<table><tr><td>
+
+TODO
+</td></tr></table>
+</details>
+
+Fragen aus der Datei [Übung 08](./Fragenkatalog/99%20Übungen/Übung%2008.md).
+
+Übung 8
+-------
+ 1. Zur Lösung die reale Gasgleichung anwenden. (Aus der Vorlesung)
+ 2. Investitions- und Betriebskosten für Elektrolyse und Kompression ausrechnen.
+ 3. Diese Kosten pro Kilogramm ausrechnen.
+
+<details><summary><b>Umrechnung Heizwert MJ/kg >> kWh/kg</b></summary>
+<table><tr><td>
+
+Umrechnungsfaktor: ``x MJ/kg * 0.2778 = kWh/kg``
 </td></tr></table>
 </details>
 
 
 
-Generiert am Tue Feb  1 11:01:42 UTC 2022
+Generiert am Thu Feb  3 11:23:52 UTC 2022
