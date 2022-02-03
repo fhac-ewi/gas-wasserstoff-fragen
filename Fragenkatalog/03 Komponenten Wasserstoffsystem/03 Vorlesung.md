@@ -41,7 +41,7 @@ Bei allen Elektrolyse-Verfahren gibt es eine Anode und Kathode, die elektrisch g
   - Membran: Ceramic Membrane
   - Was wird transportiert? O2-
 
-![img.png](./img.png)
+![img.png](./elektrolyse.png)
 
 # Speicherung von Wasserstoff
 - Geologische Wasserstoffspeicherung

@@ -21,4 +21,4 @@
 
 # Wobbe-Index
 - Wärmebelastung eines Gasbrenners, Brenngase mit gleichem Wobbe-Index ergeben bei gleichem Druck am Brenner annähernd die gleiche Wärmebelastung
-- Ws =  Brennwert / sqrt(d)
+- ``Ws =  Brennwert / sqrt(relative Dichte)``

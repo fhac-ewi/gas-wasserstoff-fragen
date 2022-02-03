@@ -73,7 +73,7 @@
   - ca. 16 bar
   - 209000 km
 - Lokales Verteilnetz   
-  - > 10mbar
+  - \> 10mbar
   - 161000 km
 
 Eigenschaften

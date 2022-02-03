@@ -7,7 +7,7 @@ ca. 25 %
 - L-Gas (Low calorific gas)
   - geringer Methangehalt
   - geringer Brennwert
-  - erhalten 25% der Gas-Kunden 
+  - erhalten 25% der Gas-Kunden im Nord-Westen Deutschlands
   - 80 - 87 % Methan
 - H-Gas (High calorific gas)
   - höherer Methangehalt
