@@ -816,8 +816,6 @@ https://de.wikipedia.org/wiki/Darcy-Weisbach-Gleichung
 <table><tr><td>
 
 Nein. Der Wechsel Erdgas >> Wasserstoff führt dazu, dass die Pipeline nur noch 70 % der Leistung transportieren kann.
-
-Die 
 </td></tr></table>
 </details>
 
@@ -826,11 +824,16 @@ Fragen aus der Datei [Übung 06](./Fragenkatalog/99%20Übungen/Übung%2006.md).
 Übung 6
 -------
 Nach welcher Pipelinelänge muss eine Nachverdichtung erfolgen?
-1. Darcy-Weisbach-Gleichung zur Ermittlung der Länge umstellen
+1. Der Verdichter muss dort stehen, wo in der Pipeline 60 bar sind. 
+2. Darcy-Weisbach-Gleichung zur Ermittlung der Länge umstellen
 
 Wie hoch ist der Energiebedarf für die Nachverdichtung auf 80 bar? 
 Geben Sie den Transportverlust bezogen auf die Durchflussmenge des Gases.
 1. Formel für Energiebedarf zur Nachverdichtung anwenden.
+2. Diesen noch durch den Wirkungsgrad teilen.
+3. Mit Durchfluss und Heizwert die Menge des Gases berechnen. (Auf Stunde umrechnen)
+4. Prozentualen Anteil bestimmen.
+
 
 <details><summary><b>Bezeichnungen</b></summary>
 <table><tr><td>
@@ -886,4 +889,4 @@ Umrechnungsfaktor: ``x MJ/kg * 0.2778 = kWh/kg``
 
 
 
-Generiert am Thu Feb  3 11:23:52 UTC 2022
+Generiert am Fri Feb  4 09:34:08 UTC 2022
