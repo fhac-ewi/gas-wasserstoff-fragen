@@ -31,5 +31,3 @@ https://de.wikipedia.org/wiki/Darcy-Weisbach-Gleichung
 
 # Kann eine Erdgaspipeline die gleiche Leistung an Wasserstoff transportieren?
 Nein. Der Wechsel Erdgas >> Wasserstoff führt dazu, dass die Pipeline nur noch 70 % der Leistung transportieren kann.
-
-Die 
